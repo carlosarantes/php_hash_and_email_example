@@ -1,0 +1,44 @@
+/**
+ * Fonts
+ * http://msakamoto.com.br/fonts
+ *
+ * @author Mário Sakamoto <msakamoto.dev@gmail.com>
+ * @license MIT
+ * @version 1.0.0
+ */
+
+@font-face {
+    font-family: 'roboto-thin-italic';
+    src: url('fonts/Roboto-ThinItalic-webfont.eot');
+    src: url('fonts/Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-ThinItalic-webfont.woff2') format('woff2'),
+         url('fonts/Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-ThinItalic-webfont.svg#roboto-thin-italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg#roboto') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('fonts/Roboto-Bold-webfont.eot');
+    src: url('fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Bold-webfont.woff2') format('woff2'),
+         url('fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Bold-webfont.svg#roboto-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

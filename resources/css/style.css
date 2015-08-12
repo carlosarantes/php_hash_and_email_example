@@ -1,0 +1,430 @@
+*{
+	margin:0 auto;
+	padding:0;
+	alignment-adjust:central;
+}
+
+body{
+  font-family: 'roboto-thin-italic';
+}
+/*----------------------------------------------------------------
+------------------------------------------------------------------
+---------------- RESETING THE PLACEHOLDER -----------------------
+------------------------------------------------------------------*/
+
+::-webkit-input-placeholder {
+   color:#777777;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color:#777777;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#777777; 
+}
+
+:-ms-input-placeholder {  
+   color:#777777; 
+}
+
+/*------------------------------------------------------------------
+--------------------------------------------------------------------*/
+.login{
+	width:228px;
+	height:150px;
+	top:50%;
+	left:50%;
+	position:absolute;
+	margin-left:-115.40px;
+	margin-top:-75px;
+	border:1px #999999 solid;
+	padding:1%;
+	box-shadow:0 0 0.70cm #999999;
+}
+
+.login label{
+	display:block;
+}
+
+.login fieldset{
+	width:100%;
+    border:none;
+}
+
+.login input[type="submit"], button{
+	margin-top:6px;
+	background-color:#000000;
+	color:#FFFFFF;
+	border:none;
+	font-weight:bold;
+	cursor:pointer;
+	height:30px;
+	width:80px;
+	outline:none;
+}
+
+.login input[type="submit"]:hover, button:hover{ 
+    border:1px #000000 solid;
+	background-color:#FFFFFF;
+	color:#000000;
+	transition:all 0.3s linear;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+}
+
+.login input[type="text"], input[type="password"]{
+	border:1px #C1C1C1 ridge;
+	height: 24px;
+	width: 180px;
+   border:1px #000000 solid;
+	box-shadow:0 10px 10px #C1C1C1 inset;
+	color:#333333;
+}
+
+.login input[type="text"]:focus, input[type="password"]:focus{
+     box-shadow:0 0 0.27em #80FFFF;
+	 background-color:#FFFFDF;
+	 transition:all 0.35s linear;
+	-webkit-transition:all 0.35s linear;
+	-moz-transition:all 0.35s linear;
+	-o-transition:all 0.35s linear;
+}
+
+.acess{
+	float:right;
+}
+
+.acess a{
+	text-decoration:none;
+}
+
+.fields{
+	width:100%;
+}
+/*-------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------*/
+#janelaModal{
+	    display:none;
+	    width:100%;
+		 height:100%;
+		 position:absolute;
+	    background-color:#777777;
+	    z-index:1;	 
+}
+	 
+#modal{
+	    background-color:#FFFFFF;
+	    width:460px; 
+		 height:320px;
+		 position:fixed;
+		 left:50%;
+		 top:50%;
+		 margin-top:-160px;
+		 margin-left:-230px;
+		 word-wrap: break-word;
+		 border:2px #CCCCCC ridge;
+		 border-radius:10px;
+}
+
+#modal form{
+    margin:25px;
+}
+
+#modal input[type="text"], input[type="password"]{
+       height: 24px;
+		 width: 180px;
+       border:1px #000000 solid;
+		 box-shadow:0 10px 10px #C1C1C1 inset;
+}
+
+#modal input[type="submit"]{
+   margin-top:6px;
+	background-color:#000000;
+	color:#FFFFFF;
+	border:none;
+	font-weight:bold;
+	cursor:pointer;
+	height:30px;
+	width:80px;
+	outline:none;
+}
+
+#modal input[type="submit"]:hover{
+   background-color:#FFFFFF;
+	color:#000000;
+	border:1px #000000 solid;
+	transition:all 0.3s linear;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+}
+	 
+#fechaModal{
+	    width:460px; 
+		 height:20px;
+		 left:50%;
+		 top:50%;
+		 margin-left:-230px;
+		 margin-top:-180px;
+		 position:fixed;
+}
+	 
+#fecha{
+	   float:right;
+		background-color:#FFFFFF;
+		position:relative;
+		border-radius:20px;
+		height:20px;
+		width:20px;
+		cursor:pointer;
+}
+	 
+#fecha:hover{
+	transition:all 0.5s linear;
+	transition:all 0.3s linear;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+#modal label{
+	display:block;
+	font-weight:bold;
+}
+
+#botao{
+    position:fixed;
+	 height:22px;
+	 width:228px;
+	 top:50%;
+	 right:50%;
+	 margin-top:-102px;
+	 margin-right:-114px;
+}
+
+#botao button{
+   float:right;
+	height:20px;
+	border-top-left-radius:2em;
+   border-top-right-radius:2em;
+	outline:none;
+}
+/*-----------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------*/
+#sair{
+	width:100%;
+	height:40px;
+}
+
+#sair button{
+	float:right;
+	width:45px;
+	height:24px;
+	border-radius:10px;
+	background-color:#FFF;
+	border:none;
+	color:#000099;
+	font-weight:800;
+}
+
+#sair button:hover{
+	transition:all 0.5s linear;
+   background-color:#E8E8E8;
+   border:1px #000000 solid;
+}
+/*------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------*/
+.areaADM{
+    width:1088px;
+	height:458px;
+    top:50%;
+	margin-top:-21%;
+    box-shadow:0 0 1.00em #CCCCCC;
+    position:fixed;
+}
+
+@media screen and (max-width: 1280px) {
+    .areaADM{
+      width:1024px;
+	  height:458px;
+	  left:64px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .areaADM{
+      width:819.2px;
+	  height:458px;
+	  left:51.2px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+   .areaADM{
+      width:640px;
+	  height:400px;
+	  left:40px;
+    }
+}
+
+#usuariosResp{
+	border-right:1px #999999 solid;
+	height:280px;
+	width:500px;
+	overflow:auto;
+	padding-right:20px;
+	float:left;
+	position:relative;
+	left:50%;
+	margin-left:-400px;
+}
+
+#main{
+	width:814px;
+	height:320px;
+	position:fixed;
+	left:100px;
+	top:80px;
+	overflow:auto;
+}
+
+.menuADM{
+	width:802px;
+	margin-top:30px;
+}
+
+.menuADM ul{
+	list-style:none;
+}
+
+.menuADM ul li{
+	display:inline;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:8px;
+}
+/*------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+-----------------SISTEMA DE ABAS DA AREA ADMIISTRATIVA -------------------------------- */
+#header{
+ background-color:#FFFFFF;
+ border-bottom-left-radius:11px;
+ border-bottom-right-radius:11px;
+ height:25px;
+ font-size:20px;
+ border:1px #CCCCCC solid;
+ box-shadow:0 0 0.20em #999999;
+}
+
+ul#nav-aba{
+	list-style:none;
+}
+
+ul#nav-aba li{
+	display:inline;
+	outline:none;
+}
+
+ul#nav-aba li a{
+	margin-left:27px;
+	margin-right:27px;
+	color:#0033FF;
+	text-decoration:none;
+	outline:none;
+}
+
+ul#nav-aba li:hover{
+   transition:all 0.8s linear;
+   text-shadow:#F00;
+}
+
+.aba{
+   display:none;	
+}
+/*------------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
+.altsenha{
+	width:350px;
+	height:180px;
+	border:1px #666666 solid;
+	padding:30px;
+	border-radius:20px;
+}
+
+.altsenha input[type="text"], input[type="password"]{
+	border:1px #C1C1C1 ridge;
+	height: 24px;
+	width: 180px;
+   border:1px #000000 solid;
+	box-shadow:0 10px 10px #C1C1C1 inset;
+	color:#333333;
+}
+
+.altsenha input[type="submit"]{
+	margin-top:6px;
+	background-color:#000000;
+	color:#FFFFFF;
+	border:none;
+	font-weight:bold;
+	cursor:pointer;
+	height:30px;
+	width:140px;
+	outline:none;
+}
+
+.altsenha input[type="submit"]:hover, button:hover{
+    border:1px #000000 solid;
+	background-color:#FFFFFF;
+	color:#000000;
+	transition:all 0.3s linear;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+}
+
+.altsenha label{
+	display:block;
+}
+/*----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------*/
+#respostas{
+	border-right:1px #999999 solid;
+	float:left;
+	position:relative;
+	left:50%;
+	margin-left:-400px;
+	width:800px;
+	overflow:auto;
+	height:400px;
+}
+/*----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------*/
+.clica{
+	width:790px;
+	height:19px;
+	cursor:pointer;
+	border:2px #999999 ridge;
+	box-shadow:0 10px 10px #CCC inset;
+	font-weight:700;
+    padding:3px;
+	position:relative;
+}
+
+.mostra{
+	width:790px;
+	border:2px #999999 ridge;
+	box-shadow:0 10px 10px #CCC inset;
+    padding:3px;
+	box-shadow:0 0px 1.50em #CCC inset;
+	display:none;
+	position:relative;
+}
